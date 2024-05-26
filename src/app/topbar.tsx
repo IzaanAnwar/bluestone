@@ -8,7 +8,7 @@ import { ServerIcon } from "lucide-react";
 export  function Topbar() {
   return (
     <Navbar shouldHideOnScroll>
-      <NavbarBrand className="gap-2">
+      <NavbarBrand className="gap-2 ">
       <ServerIcon className="h-6 w-6" />
         <p className="font-bold text-inherit">Bluestine Tech Services</p>
       </NavbarBrand>
