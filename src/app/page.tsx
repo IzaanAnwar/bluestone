@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <main className="flex-1 md:px-24 ">
-        <section className="static h-screen">
+        <section className="static h-full">
           <div className="w-full h-[35vh] md:h-[50vh] lg:h-screen overflow-clip absolute left-0 right-0 -z-50 bg-zinc-900 ">
             <div className="opacity-10 w-full h-full">
               <Image
@@ -54,7 +54,7 @@ export default function Home() {
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
                   Powerful, Scalable, and Reliable
                 </h2>
-                <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed ">
                   Our solutions are designed to handle the most demanding
                   workloads, with industry-leading hardware and software,
                   advanced monitoring, and seamless scalability.
@@ -125,8 +125,44 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <section
+          className="w-full py-12 md:py-24 lg:py-32 px-4 md:px-[3.5rem] lg:px-36 "
+          id="about"
+        >
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div className="aspect-square overflow-clip">
+              <Image
+                src="/servers.jpg"
+                alt="servers"
+                className="object-cover"
+              />
+            </div>
+            <div className="text-lg flex justify-between items-start flex-col h-full space-y-4">
+              <div className="space-y-4 pt-2">
+                <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary">
+                  Bluestone Tech Services Pvt. Ltd.
+                </h1>
+                <p className="text-zinc-800">
+                  <span className="text-xl pl-12">is</span> considered as one of
+                  the leading companies of IT Industries has been started by a
+                  group of young and dynamic entrepreneurial IT professionals in
+                  the year of 2024 with a vision to make a mark in Information
+                  Technology We have a strong technical team background which
+                  helps us in implementing & Maintaining Converged Networks with
+                  end to end solution for Data, Voice and Video, LAN and WAN
+                  Access Products, Wireless Solutions, HPC, DPU-GPU, VDI, Wi-Fi,
+                  WI Mesh, turnkey projects with cutting edge technologies.
+                  There by making complex projects simpler and easily deployable
+                </p>
+              </div>
+              <Button className=" bg-primary text-white font-bold w-full md:w-fit">
+                SCHEDULE AN APPOINTMENT
+              </Button>
+            </div>
+          </div>
+        </section>
         <section className="w-full py-12 md:py-24 lg:py-32 " id="clients">
-          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
+          <div className="container grid items-center justify-center gap-4 px-4 md:px-[3.5rem] lg:px-36 text-center  lg:gap-10">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Trusted by Leading Corporations and Institutes
@@ -137,98 +173,64 @@ export default function Home() {
                 clients.
               </p>
             </div>
-            <div className="divide-y rounded-lg border ">
-              <div className="grid w-full grid-cols-3 items-stretch justify-center divide-x md:grid-cols-5">
+            <div className="divide-y rounded-lg border  ">
+              <div className="grid w-full grid-cols-3 items-stretch justify-center divide-x md:grid-cols-4 ">
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
-                  />
-                </div>
-                <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
-                    alt="Logo"
-                    className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
               </div>
-              <div className="grid w-full grid-cols-3 items-stretch justify-center divide-x md:grid-cols-5">
+              <div className="grid w-full grid-cols-3 items-stretch justify-center divide-x md:grid-cols-4">
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
+                  <Image
                     alt="Logo"
                     className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
-                  />
-                </div>
-                <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
-                  <img
-                    alt="Logo"
-                    className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
-                    height="70"
-                    src="/placeholder.svg"
-                    width="140"
+                    src="/gem.jpg"
                   />
                 </div>
               </div>
@@ -276,7 +278,7 @@ export default function Home() {
                     required
                   />
                 </div>
-                <Button className="w-full bg-primary" type="submit">
+                <Button className="w-full bg-primary text-white" type="submit">
                   Submit
                 </Button>
               </form>

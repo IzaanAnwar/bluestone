@@ -2,8 +2,8 @@ import { Link } from "@nextui-org/link";
 
 export function Footer() {
   return (
-    <footer className=" py-6 px-24 md:py-12 w-full bg-gray-100 text-zinc-800 border-t">
-      <div className="container max-w-7xl flex  justify-start items-start  gap-8 text-sm">
+    <footer className=" py-6 px-6 md:px-24 md:py-12 w-full bg-gray-100 text-zinc-800 border-t">
+      <div className="container max-w-7xl md:flex  justify-start items-start  gap-8 text-sm space-y-6 md:space-y-0">
         <div className="w-full flex flex-col justify-start items-start gap-1">
           <h3 className="font-semibold">Company</h3>
           <Link href="#">About Us</Link>
