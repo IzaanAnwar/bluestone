@@ -8,16 +8,17 @@ export default function Home() {
     <>
       <main className="flex-1 md:px-24 ">
         <section className="static h-full">
-          <div className="w-full h-[35vh] md:h-[50vh] lg:h-screen overflow-clip absolute left-0 right-0 -z-50 bg-zinc-900 ">
+          <div className="w-full h-[40vh] md:h-[52vh] lg:h-screen overflow-clip absolute left-0 right-0 -z-50 bg-zinc-900 ">
             <div className="opacity-10 w-full h-full">
               <Image
                 src="/abc.jpg"
-                className=" object-cover h-[35vh] md:h-[50vh] lg:h-screen  brightness-95 saturate-150"
+                className=" object-cover h-[40vh] md:h-[52vh] lg:h-screen  brightness-95 saturate-150"
+                alt="main"
               />
             </div>
           </div>
           <div className="px-4 md:px-6 space-y-10 xl:space-y-16 relative   ">
-            <div className="flex justify-center items-center  w-full h-[35vh] md:h-[50vh] lg:h-screen">
+            <div className="flex justify-center items-center py-4 w-full h-[40vh] md:h-[52vh] lg:h-screen">
               <div className="z-10 text-white text-center  space-y-6">
                 <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] w-full md:max-w-[32rem] lg:max-w-[64rem]  ">
                   <span className="bg-gradient-to-r font-black tracking-tight from-pink-700 via-purple-500 to-primary-500 inline-block text-transparent bg-clip-text">
@@ -162,7 +163,7 @@ export default function Home() {
           </div>
         </section>
         <section className="w-full py-12 md:py-24 lg:py-32 " id="clients">
-          <div className="container grid items-center justify-center gap-4 px-4 md:px-[3.5rem] lg:px-36 text-center  lg:gap-10">
+          <div className="container grid items-center justify-center gap-4 px-6 md:px-[3.5rem] lg:px-36 text-center  lg:gap-10">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
                 Trusted by Leading Corporations and Institutes
@@ -174,7 +175,7 @@ export default function Home() {
               </p>
             </div>
             <div className="divide-y rounded-lg border  ">
-              <div className="grid w-full grid-cols-3 items-stretch justify-center divide-x md:grid-cols-4 ">
+              <div className="grid w-full grid-cols-2 items-stretch justify-center divide-x md:grid-cols-4 ">
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
                   <Image
                     alt="Logo"
@@ -204,7 +205,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <div className="grid w-full grid-cols-3 items-stretch justify-center divide-x md:grid-cols-4">
+              <div className="grid w-full grid-cols-2 items-stretch justify-center divide-x md:grid-cols-4">
                 <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
                   <Image
                     alt="Logo"
