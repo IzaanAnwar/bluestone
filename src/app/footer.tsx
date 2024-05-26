@@ -30,7 +30,7 @@ export function Footer() {
             110019
           </p>
           <p>011‐41051450, 9871925813,</p>
-          <p>info@bluestonetechservices.com</p>
+          <p>info@bluestonetechservices.com </p>
         </div>
       </div>
     </footer>
